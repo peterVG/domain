@@ -6,7 +6,10 @@ export default defineConfig({
 	site: "https://domain.orcfax.io",
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Orcfax Domain',
+			logo: {
+				src: './src/assets/orcfax-logo.png',
+			  },
 			customCss: ['./src/styles/custom.css'],
 			social: {
 				github: 'https://github.com/withastro/starlight',
