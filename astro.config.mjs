@@ -28,17 +28,17 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Models',
-					autogenerate: { directory: 'models' },
+					label: 'Domains',
+					autogenerate: { directory: 'domains' },
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Orcfax', link: '/model/orcfax/', },
-						{ label: 'Cardano', link: '/model/cardano/', },
-						{ label: 'Arweave', link: '/model/arweave/', },
-						{ label: 'Blockchain', link: '/model/blockchain/', },
-						{ label: 'Software', link: '/model/software-engineering/', },
-						{ label: 'Archives', link: '/model/archival-sciencie/', },
-						{ label: 'Epistemology', link: '/model/epistemology/', },
+						{ label: 'Orcfax oracle', link: '/domains/orcfax/', },
+						{ label: 'Cardano network', link: '/domains/cardano/', },
+						{ label: 'Arweave network', link: '/domains/arweave/', },
+						{ label: 'Blockchain technology', link: '/domains/blockchain/', },
+						{ label: 'Software engineering', link: '/domains/software/', },
+						{ label: 'Archival science', link: '/domains/archives/', },
+						{ label: 'Epistemology', link: '/domains/epistemology/', },
 					],
 				},
 				{
