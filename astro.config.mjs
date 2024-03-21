@@ -16,15 +16,28 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Glossary',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Intro', link: '/glossary/intro/', },
+						{ label: 'A', link: '/glossary/a/', },
+						{ label: 'B', link: '/glossary/b/', },
+						{ label: 'C', link: '/glossary/c/', },
+						{ label: 'D', link: '/glossary/d/', },
+						{ label: 'E', link: '/glossary/e/', },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Resources',
+					autogenerate: { directory: 'resources' },
+				},
+				{
+					label: 'Requirements',
+					autogenerate: { directory: 'requirements' },
+				},
+				{
+					label: 'Authors',
+					autogenerate: { directory: 'creators' },
 				},
 			],
 		}),
