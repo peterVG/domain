@@ -28,12 +28,26 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Resources',
-					autogenerate: { directory: 'resources' },
+					label: 'Models',
+					autogenerate: { directory: 'models' },
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Orcfax', link: '/model/orcfax/', },
+						{ label: 'Cardano', link: '/model/cardano/', },
+						{ label: 'Arweave', link: '/model/arweave/', },
+						{ label: 'Blockchain', link: '/model/blockchain/', },
+						{ label: 'Software', link: '/model/software-engineering/', },
+						{ label: 'Archives', link: '/model/archival-sciencie/', },
+						{ label: 'Epistemology', link: '/model/epistemology/', },
+					],
 				},
 				{
 					label: 'Requirements',
 					autogenerate: { directory: 'requirements' },
+				},
+				{
+					label: 'Resources',
+					autogenerate: { directory: 'resources' },
 				},
 				{
 					label: 'Authors',

@@ -1,5 +1,5 @@
 ---
-title: Intro
+title: Glossary Intro
 description: Introduction to the Orcfax domain glossary
 ---
 
